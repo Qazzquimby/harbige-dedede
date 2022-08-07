@@ -25,7 +25,7 @@ set_num_hitboxes(AT_DAIR, 2);
 set_hitbox_value(AT_DAIR, 1, HG_MUNO_HITBOX_NAME, "Sour");
 set_hitbox_value(AT_DAIR, 1, HG_HITBOX_TYPE, 1);
 set_hitbox_value(AT_DAIR, 1, HG_WINDOW, 2);
-set_hitbox_value(AT_DAIR, 1, HG_LIFETIME, 3);
+set_hitbox_value(AT_DAIR, 1, HG_LIFETIME, 17);
 set_hitbox_value(AT_DAIR, 1, HG_HITBOX_X, -5);
 set_hitbox_value(AT_DAIR, 1, HG_HITBOX_Y, 20);
 set_hitbox_value(AT_DAIR, 1, HG_WIDTH, 64);
