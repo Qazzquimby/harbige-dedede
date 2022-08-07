@@ -18,7 +18,7 @@ state_timer = 0;
 //Variables
 bounce_multiplier = 0.9; //Multiply bonces by this amount.
 //bounce_min = 1; //The minimum vspeed before it sticks.
-bounce_speed = 9.5;
+bounce_speed = 9;
 //bounce_current = bounce_speed * 2;
 bounce_times = 0;
 stick_time_max = 300; //The maximum sticking time before it disappears.
@@ -37,7 +37,7 @@ plat_xprev = 0;
 plat_yprev = 0;
 
 var block_below = collision_point(x, y + 2, asset_get("par_block"), 1, 1);
-var plat_below = collision_point(x, y + 2, asset_get("par_jumpthrough"), 1, 1);
+var plat_below = collision_point(x, y + 2 , asset_get("par_jumpthrough"), 1, 1);
 
 if (instance_exists(block_below)) {
     plat_x = get_instance_x(block_below) - plat_xprev;
