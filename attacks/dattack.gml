@@ -33,7 +33,7 @@ set_window_value(AT_DATTACK, 4, AG_WINDOW_HAS_WHIFFLAG, 1);
 set_window_value(AT_DATTACK, 4, AG_WINDOW_HAS_CUSTOM_FRICTION, 1);
 set_window_value(AT_DATTACK, 4, AG_WINDOW_CUSTOM_GROUND_FRICTION, 0.6);
 
-set_num_hitboxes(AT_DATTACK, 2);
+set_num_hitboxes(AT_DATTACK, 3);
 
 set_hitbox_value(AT_DATTACK, 1, HG_MUNO_HITBOX_NAME, "Clean");
 set_hitbox_value(AT_DATTACK, 1, HG_HITBOX_TYPE, 1);
@@ -71,3 +71,21 @@ set_hitbox_value(AT_DATTACK, 2, HG_KNOCKBACK_SCALING, 0.8);
 set_hitbox_value(AT_DATTACK, 2, HG_BASE_HITPAUSE, 6);
 set_hitbox_value(AT_DATTACK, 2, HG_HITPAUSE_SCALING, 0.8);
 set_hitbox_value(AT_DATTACK, 2, HG_HIT_SFX, asset_get("sfx_blow_medium3"));
+
+set_hitbox_value(AT_DATTACK, 3, HG_MUNO_HITBOX_NAME, "Spike");
+set_hitbox_value(AT_DATTACK, 3, HG_HITBOX_TYPE, 1);
+set_hitbox_value(AT_DATTACK, 3, HG_WINDOW, 3);
+set_hitbox_value(AT_DATTACK, 3, HG_LIFETIME, 3);
+set_hitbox_value(AT_DATTACK, 3, HG_HITBOX_X, 22);
+set_hitbox_value(AT_DATTACK, 3, HG_HITBOX_Y, 12);
+set_hitbox_value(AT_DATTACK, 3, HG_WIDTH, 68);
+set_hitbox_value(AT_DATTACK, 3, HG_HEIGHT, 24);
+set_hitbox_value(AT_DATTACK, 3, HG_SHAPE, 2);
+set_hitbox_value(AT_DATTACK, 3, HG_PRIORITY, 1);
+set_hitbox_value(AT_DATTACK, 3, HG_DAMAGE, 8);
+set_hitbox_value(AT_DATTACK, 3, HG_ANGLE, 270);
+set_hitbox_value(AT_DATTACK, 3, HG_BASE_KNOCKBACK, 5);
+set_hitbox_value(AT_DATTACK, 3, HG_KNOCKBACK_SCALING, 0.7);
+set_hitbox_value(AT_DATTACK, 3, HG_BASE_HITPAUSE, 6);
+set_hitbox_value(AT_DATTACK, 3, HG_HITPAUSE_SCALING, 0.8);
+set_hitbox_value(AT_DATTACK, 3, HG_HIT_SFX, asset_get("sfx_blow_medium3"));
