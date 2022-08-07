@@ -742,7 +742,14 @@ switch (attack){
 						star.hsp = -8;
 					}
 				}
-				else if (shield_pressed || up_pressed) {
+			}
+			if (free && window > 2 && !hitpause) {
+				uspecial_hsp += 0.15 * (right_down - left_down)
+				uspecial_hsp = clamp(uspecial_hsp, -uspecial_move_speed, uspecial_move_speed)
+				
+				hsp = uspecial_hsp;
+				
+				if (shield_pressed || up_pressed) {
 		            window = 10;
 		            window_timer = 0;
 		            vsp = 0;
@@ -753,12 +760,6 @@ switch (attack){
 					set_attack(AT_USPECIAL_GROUND);
 					hurtboxID.sprite_index = get_attack_value(AT_USPECIAL_GROUND, AG_HURTBOX_SPRITE);
 		        }
-			}
-			if (free && window > 2 && !hitpause) {
-				uspecial_hsp += 0.15 * (right_down - left_down)
-				uspecial_hsp = clamp(uspecial_hsp, -uspecial_move_speed, uspecial_move_speed)
-				
-				hsp = uspecial_hsp;
 			}
     		can_fast_fall = false;
 		break;
