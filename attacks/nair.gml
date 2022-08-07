@@ -47,7 +47,7 @@ set_hitbox_value(AT_NAIR, 1, HG_HIT_SFX, asset_get("sfx_blow_heavy1"));
 set_hitbox_value(AT_NAIR, 2, HG_MUNO_HITBOX_NAME, "Late");
 set_hitbox_value(AT_NAIR, 2, HG_HITBOX_TYPE, 1);
 set_hitbox_value(AT_NAIR, 2, HG_WINDOW, 3);
-set_hitbox_value(AT_NAIR, 2, HG_LIFETIME, 12);
+set_hitbox_value(AT_NAIR, 2, HG_LIFETIME, 17);
 set_hitbox_value(AT_NAIR, 2, HG_HITBOX_X, 10);
 set_hitbox_value(AT_NAIR, 2, HG_HITBOX_Y, -32);
 set_hitbox_value(AT_NAIR, 2, HG_WIDTH, 64);
