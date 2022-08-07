@@ -699,6 +699,8 @@ switch (attack){
 				can_move = false;
 				can_wall_jump = true;
 				
+				fall_through = down_down;
+
 				//Landing
 				if (!free) {
 					soft_armor = 0;
